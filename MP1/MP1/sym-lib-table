@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "USB") (type "KiCad") (uri "/home/toby/Downloads/480370001 (1)/KiCADv6/2026-09-08_02-59-22.kicad_sym") (options "") (descr ""))
+	(lib (name "5v To 3.3v Lin Reg") (type "KiCad") (uri "/home/toby/Downloads/MCP1702T_3302E_CB/KiCADv6/2026-09-08_00-19-53.kicad_sym") (options "") (descr ""))
+	(lib (name "Op Amp") (type "KiCad") (uri "/home/toby/Downloads/MCP6022T_I_ST (1)/KiCADv6/2026-09-08_01-47-07.kicad_sym") (options "") (descr ""))
+)

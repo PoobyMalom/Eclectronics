@@ -1,0 +1,12 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "1k") (type "KiCad") (uri "/home/toby/Downloads/RC0603FR_071KL/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "475k") (type "KiCad") (uri "/home/toby/Downloads/RC0603FR_07475KL/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "200") (type "KiCad") (uri "/home/toby/Downloads/RC0603FR_07200RL/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "1UF") (type "KiCad") (uri "/home/toby/Downloads/C0603C105K3RACTU/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "OpAmp") (type "KiCad") (uri "/home/toby/Downloads/MCP6022T_I_ST/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "LED") (type "KiCad") (uri "/home/toby/Downloads/LTST_C171KRKT/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "5v To 3.3v Lin Reg") (type "KiCad") (uri "/home/toby/Downloads/MCP1702T_3302E_CB/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "USB") (type "KiCad") (uri "/home/toby/Downloads/480370001 (1)/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "909k") (type "KiCad") (uri "/home/toby/Downloads/RC0603FR_07909KL/KiCADv6/footprints.pretty") (options "") (descr ""))
+)
