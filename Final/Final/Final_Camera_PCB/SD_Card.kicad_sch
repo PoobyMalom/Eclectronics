@@ -938,7 +938,7 @@
 					)
 				)
 			)
-			(property "Value" "ECLAMP2357NQ.TCT"
+			(property "Value" "ECLAMP2357NQTLT"
 				(at 38.1 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -948,7 +948,7 @@
 					)
 				)
 			)
-			(property "Footprint" "QFN_16L_SEM"
+			(property "Footprint" "Package_DFN_QFN:UQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1083,24 +1083,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -17.78 0)
-					(length 7.62)
-					(name "INPUT/OUTPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 76.2 -10.16 180)
 					(length 7.62)
 					(name "INPUT/OUTPUT"
@@ -1111,42 +1093,6 @@
 						)
 					)
 					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 76.2 -5.08 180)
-					(length 7.62)
-					(name "INPUT/OUTPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 76.2 0 180)
-					(length 7.62)
-					(name "GROUND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1265,6 +1211,24 @@
 					)
 				)
 				(pin bidirectional line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "INPUT/OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 76.2 -20.32 180)
 					(length 7.62)
 					(name "SDDATA0"
@@ -1355,6 +1319,24 @@
 					)
 				)
 				(pin bidirectional line
+					(at 76.2 -5.08 180)
+					(length 7.62)
+					(name "INPUT/OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 76.2 -2.54 180)
 					(length 7.62)
 					(name "CMD"
@@ -1365,6 +1347,24 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 76.2 0 180)
+					(length 7.62)
+					(name "GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2373,6 +2373,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 12.192 12.192)
@@ -2515,10 +2630,22 @@
 		(uuid "8cfa8e70-c245-40ef-ae2c-8db84885a23d")
 	)
 	(junction
+		(at 232.41 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "901b4a3d-df49-4076-bbd5-9d8f3f1f1e62")
+	)
+	(junction
 		(at 35.56 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9039ca45-b318-4aad-884f-aa828fd9a3f6")
+	)
+	(junction
+		(at 255.27 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9b91109-7b31-4fa5-9bbb-d4c364c10500")
 	)
 	(junction
 		(at 255.27 29.21)
@@ -2567,6 +2694,16 @@
 			(type default)
 		)
 		(uuid "059ecb72-5152-4743-8cea-717484d7dabf")
+	)
+	(wire
+		(pts
+			(xy 25.4 77.47) (xy 29.21 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06bc83c6-6741-43b6-a830-b0adf4fadaab")
 	)
 	(wire
 		(pts
@@ -2657,6 +2794,16 @@
 			(type default)
 		)
 		(uuid "2104e362-b531-4da5-9db6-811a72af4c06")
+	)
+	(wire
+		(pts
+			(xy 232.41 30.48) (xy 232.41 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21bd3c9a-f2a9-4cf7-8eed-868e82ab9b42")
 	)
 	(wire
 		(pts
@@ -2990,7 +3137,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 25.4) (xy 255.27 29.21)
+			(xy 255.27 25.4) (xy 255.27 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3080,13 +3227,13 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 29.21) (xy 232.41 33.02)
+			(xy 231.14 30.48) (xy 232.41 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9f81583-ebb4-468c-9fa4-ac970bb1005d")
+		(uuid "b35d4bef-91c9-4505-9f5b-01e6a90a1e5f")
 	)
 	(wire
 		(pts
@@ -3137,6 +3284,16 @@
 			(type default)
 		)
 		(uuid "c95982f2-11b7-4465-8dd2-08946e72be1b")
+	)
+	(wire
+		(pts
+			(xy 232.41 29.21) (xy 232.41 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc336607-c4f4-4648-bcc8-9f9cf64382cc")
 	)
 	(wire
 		(pts
@@ -3240,6 +3397,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 26.67) (xy 255.27 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c97594-81c0-43eb-b040-4c19f6ef4c34")
+	)
+	(wire
+		(pts
 			(xy 105.41 64.77) (xy 111.76 64.77)
 		)
 		(stroke
@@ -3250,7 +3417,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 27.94) (xy 100.33 27.94)
+			(xy 87.63 27.94) (xy 88.9 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3297,26 +3464,6 @@
 			(type default)
 		)
 		(uuid "f4a827ae-c9b8-46b4-b710-348fddaaee76")
-	)
-	(wire
-		(pts
-			(xy 107.95 27.94) (xy 114.3 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbb8fa15-bc54-43f7-9559-4603aff5175e")
-	)
-	(wire
-		(pts
-			(xy 25.4 77.47) (xy 29.21 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe346af7-4a52-401d-bb09-fa4259676696")
 	)
 	(label "DAT3"
 		(at 151.13 44.45 180)
@@ -3398,8 +3545,8 @@
 		)
 		(uuid "4e94370d-5f50-4836-a280-e21c19f2093b")
 	)
-	(label "NRST"
-		(at 114.3 27.94 0)
+	(label "SD_PWR_EN"
+		(at 88.9 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3437,16 +3584,6 @@
 			(justify left bottom)
 		)
 		(uuid "69d15ed2-d805-4c44-9a2e-d0d2d9b8911d")
-	)
-	(label "NRST"
-		(at 219.71 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c2c323f-0d84-4f79-8890-96d6f567acd9")
 	)
 	(label "DET_B"
 		(at 25.4 74.93 180)
@@ -3528,16 +3665,15 @@
 		)
 		(uuid "e7296a13-7b71-40b0-a706-fe735bbf0e91")
 	)
-	(hierarchical_label "SDCLK"
-		(shape input)
-		(at 25.4 77.47 180)
+	(label "SD_PWR_EN"
+		(at 219.71 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "08437117-b436-4fca-be49-72392cc80342")
+		(uuid "f6477a30-652b-493d-a0c8-522d083b8c6b")
 	)
 	(hierarchical_label "SDCLK"
 		(shape input)
@@ -4000,7 +4136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 63.5 138.938 90)
 			(hide yes)
 			(show_name no)
@@ -4344,6 +4480,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 255.27 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ae82386-6e4e-48c9-bd09-d6893289ceca")
+		(property "Reference" "#FLG01"
+			(at 253.365 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 251.46 26.6699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 255.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae6eea69-f551-4e91-a381-dffbd294c2b5")
+		)
+		(instances
+			(project "Final_Camera_PCB"
+				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/8d89558a-04eb-43cc-b0e9-06c9fdf201ab"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 85.09 127 270)
 		(unit 1)
@@ -4417,6 +4632,85 @@
 			(project "Final_Camera_PCB"
 				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/8d89558a-04eb-43cc-b0e9-06c9fdf201ab"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 231.14 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b9eed36-2eea-497d-9bb5-289b31248489")
+		(property "Reference" "#FLG02"
+			(at 229.235 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 227.33 30.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 231.14 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7879a59-28cf-423b-8274-d2bf105b09c2")
+		)
+		(instances
+			(project "Final_Camera_PCB"
+				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/8d89558a-04eb-43cc-b0e9-06c9fdf201ab"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -5225,86 +5519,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 104.14 27.94 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e951415-a692-48f1-84c2-29c8f851c6db")
-		(property "Reference" "R3"
-			(at 104.14 21.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 104.14 24.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 104.14 26.162 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 104.14 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5034dd24-1b01-4027-9c2f-d25731a183be")
-		)
-		(pin "2"
-			(uuid "917c2885-7516-4a8a-a9a4-6c52d3093ffd")
-		)
-		(instances
-			(project "Final_Camera_PCB"
-				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/8d89558a-04eb-43cc-b0e9-06c9fdf201ab"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 105.41 57.15 180)
 		(unit 1)
@@ -5572,7 +5786,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 63.5 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -5652,7 +5866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 63.5 118.618 90)
 			(hide yes)
 			(show_name no)
@@ -5968,7 +6182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 63.5 128.778 90)
 			(hide yes)
 			(show_name no)
@@ -6126,7 +6340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 63.5 149.098 90)
 			(hide yes)
 			(show_name no)
@@ -6375,7 +6589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 275.2852 44.45 0)
 			(hide yes)
 			(show_name no)

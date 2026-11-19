@@ -602,8 +602,18 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "OSC"
-				(at -7.62 8.255 0)
+			(property "Reference" "Y1"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" "24MHz"
+				(at -2.794 8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -613,18 +623,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at -7.62 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Adafruit OV5640 Breakout:OSC_7X5MM"
+			(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm_HandSoldering"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -968,7 +967,7 @@
 						(justify left bottom)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "INH"
@@ -1033,176 +1032,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Adafruit OV5640 Breakout-eagle-import:SOLDERJUMPER"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SJ"
-				(at -2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Adafruit OV5640 Breakout:SOLDERJUMPER_ARROW_NOPASTE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "BOM" "EXCLUDE"
-				(at 0 -5.334 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SOLDERJUMPER_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.381 -0.635)
-					(mid -1.0159 0.0001)
-					(end -0.3808 0.635)
-					(stroke
-						(width 1.27)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.381 0.635)
-					(mid 1.0159 -0.0001)
-					(end 0.3808 -0.635)
-					(stroke
-						(width 1.27)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2782,6 +2611,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 227.838 12.192)
@@ -2866,7 +2810,7 @@
 		)
 		(uuid "1f8d9b51-bd09-4f2d-b5f2-b4756302a25f")
 	)
-	(text "3V3 TO 1V5"
+	(text "3V3 TO 1V2"
 		(exclude_from_sim no)
 		(at 161.798 63.246 0)
 		(effects
@@ -3004,6 +2948,12 @@
 		(color 0 0 0 0)
 		(uuid "d32f925e-86ad-4b5c-ab86-0b18880a4314")
 	)
+	(junction
+		(at 83.82 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb8e2e06-a2ec-4de6-b31e-97d265251c2c")
+	)
 	(no_connect
 		(at 76.2 40.64)
 		(uuid "eaba1498-a823-426e-8d41-475aa6ff5998")
@@ -3100,16 +3050,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 20.32) (xy 251.46 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1215c54b-d050-4714-bd32-01b7a64061b2")
-	)
-	(wire
-		(pts
 			(xy 83.82 44.45) (xy 83.82 46.99)
 		)
 		(stroke
@@ -3190,16 +3130,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 20.32) (xy 269.24 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e2d3870-9a6b-407d-9038-453c13490354")
-	)
-	(wire
-		(pts
 			(xy 133.35 87.63) (xy 135.89 87.63)
 		)
 		(stroke
@@ -3210,13 +3140,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 25.4) (xy 83.82 36.83)
+			(xy 83.82 25.4) (xy 83.82 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "320d32e3-a2c1-46b5-9813-62100dbe476b")
+	)
+	(wire
+		(pts
+			(xy 168.91 22.86) (xy 168.91 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344ddc94-0a43-49d1-a3a5-2dbf5ca295ab")
 	)
 	(wire
 		(pts
@@ -3587,6 +3527,16 @@
 			(type default)
 		)
 		(uuid "93955cac-0ce6-4ff3-87b2-0a72446fcb92")
+	)
+	(wire
+		(pts
+			(xy 83.82 27.94) (xy 83.82 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd604c5-ffcb-484d-9a31-e4f7eb824ccf")
 	)
 	(wire
 		(pts
@@ -3978,16 +3928,6 @@
 		)
 		(uuid "1320546e-38d2-4089-b4ff-ab7489734a80")
 	)
-	(label "DATA1"
-		(at 269.24 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4afc568e-f51a-4d0e-89ad-b0f60eeae0af")
-	)
 	(label "XCLK"
 		(at 27.94 100.33 180)
 		(effects
@@ -4316,6 +4256,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 29.21 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0538b399-1599-43df-8edf-53760de28d4d")
+		(property "Reference" "#PWR033"
+			(at 33.02 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 25.4 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 29.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2640f438-bf38-4ad0-b713-8bfc48e2ff1a")
+		)
+		(instances
+			(project "Final_Camera_PCB"
+				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 142.24 31.75 0)
 		(unit 1)
@@ -4338,7 +4357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 144.653 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4398,84 +4417,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V8")
-		(at 29.21 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06dfbd86-82f0-4be0-9718-93b563ec47fe")
-		(property "Reference" "#PWR034"
-			(at 33.02 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 27.94 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V8\""
-			(at 29.21 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4de17c5-f079-4892-aa4c-bf93bf520012")
-		)
-		(instances
-			(project "Final_Camera_PCB"
-				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 109.22 38.1 0)
 		(unit 1)
@@ -4498,7 +4439,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 113.03 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4558,8 +4499,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V8")
-		(at 243.84 35.56 90)
+		(lib_id "power:PWR_FLAG")
+		(at 83.82 27.94 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4567,9 +4508,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1cb62c1d-e641-4333-8c42-25e07c9207c9")
-		(property "Reference" "#PWR023"
-			(at 247.65 35.56 0)
+		(fields_autoplaced yes)
+		(uuid "1346c0e6-25f4-42dd-a197-a96cf403eff2")
+		(property "Reference" "#FLG06"
+			(at 85.725 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4579,18 +4521,19 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 237.744 35.56 90)
+		(property "Value" "PWR_FLAG"
+			(at 87.63 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 35.56 0)
+			(at 83.82 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,7 +4544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 35.56 0)
+			(at 83.82 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4611,8 +4554,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V8\""
-			(at 243.84 35.56 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 83.82 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4623,12 +4566,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c935471-8246-4f50-8248-1d4116793f45")
+			(uuid "a5a084f9-bffc-40f5-be6d-db35b5087d0c")
 		)
 		(instances
 			(project "Final_Camera_PCB"
 				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
-					(reference "#PWR023")
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 243.84 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17fb1188-ddc1-4b71-a227-b0d80d060b5b")
+		(property "Reference" "#PWR029"
+			(at 247.65 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 240.03 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 243.84 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7fc41a4-bb26-4137-8998-87cefe0f7bee")
+		)
+		(instances
+			(project "Final_Camera_PCB"
+				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5142,6 +5164,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 243.84 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44e54d55-c96d-45d6-8769-0e9d1312dc46")
+		(property "Reference" "#PWR03"
+			(at 247.65 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 240.03 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 243.84 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "036ff8c1-c37d-443f-aa01-d923f3512aee")
+		)
+		(instances
+			(project "Final_Camera_PCB"
+				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 256.54 25.4 270)
 		(unit 1)
@@ -5558,7 +5659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 25.4 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5939,83 +6040,6 @@
 			(project "Final_Camera_PCB"
 				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V8")
-		(at 243.84 43.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "66cdfe7e-bece-4429-bf18-99c7418002f2")
-		(property "Reference" "#PWR029"
-			(at 247.65 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 237.744 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V8\""
-			(at 243.84 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51870119-7f8c-43e9-9524-32ee73b81c9a")
-		)
-		(instances
-			(project "Final_Camera_PCB"
-				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6739,6 +6763,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 168.91 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "816f280c-c7c7-4d98-82a5-d177ce885f51")
+		(property "Reference" "#PWR012"
+			(at 168.91 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 168.91 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 168.91 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "687a0c87-1e95-4db7-879b-d04ab66f3236")
+		)
+		(instances
+			(project "Final_Camera_PCB"
+				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 248.92 63.5 180)
 		(unit 1)
@@ -6760,7 +6862,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 240.284 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6989,10 +7091,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9141fe27-f495-47c2-865b-58de77dd683e")
 		(property "Reference" "C3"
-			(at 166.37 27.9399 0)
+			(at 154.178 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7003,7 +7104,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 166.37 30.4799 0)
+			(at 154.178 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7140,8 +7241,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit OV5640 Breakout-eagle-import:SOLDERJUMPER")
-		(at 256.54 20.32 0)
+		(lib_id "power:+3V3")
+		(at 243.84 43.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7150,30 +7251,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a547fe7c-b16e-4b7f-a652-3a464bef3e21")
-		(property "Reference" "SJ1"
-			(at 256.54 16.51 0)
+		(uuid "a081577f-8dd1-4e3e-8f5b-852e77feade7")
+		(property "Reference" "#PWR023"
+			(at 247.65 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.0795)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 254 24.13 0)
+		(property "Value" "+3V3"
+			(at 240.03 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.0795)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 256.54 20.32 0)
+		(property "Footprint" ""
+			(at 243.84 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7184,7 +7286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 20.32 0)
+			(at 243.84 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7194,19 +7296,8 @@
 				)
 			)
 		)
-		(property "Description" "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads."
-			(at 256.54 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "BOM" "EXCLUDE"
-			(at 256.54 25.654 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 243.84 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7217,15 +7308,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b13e55e3-bf47-4986-be88-9eb4a4307d40")
-		)
-		(pin "2"
-			(uuid "36840153-740f-480f-be10-cc74b82565a7")
+			(uuid "6f6498ac-6f64-4f4e-89c9-ab4b75cb3acf")
 		)
 		(instances
 			(project "Final_Camera_PCB"
 				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
-					(reference "SJ1")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7241,7 +7329,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a830d991-bb4f-417f-a9e7-f2cdf2d348f5")
 		(property "Reference" "Y1"
 			(at 123.19 82.55 0)
@@ -7253,8 +7340,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 115.57 102.87 0)
+		(property "Value" "24MHz"
+			(at 120.396 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7712,6 +7799,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 162.56 22.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7713f76-cd1c-410c-97ae-3a435c471a3a")
+		(property "Reference" "#PWR0105"
+			(at 162.56 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e18b7c03-787b-4bab-ad2e-2db1c50a1bf6")
+		)
+		(instances
+			(project "Final_Camera_PCB"
+				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 243.84 25.4 270)
 		(unit 1)
 		(body_style 1)
@@ -7958,84 +8123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 162.56 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3094742-60e8-4348-b18e-3c8f12d0d52b")
-		(property "Reference" "#PWR012"
-			(at 162.56 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 162.56 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 162.56 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "906369e9-67c9-44bb-916a-8ac5389991f7")
-		)
-		(instances
-			(project "Final_Camera_PCB"
-				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 256.54 50.8 90)
 		(unit 1)
@@ -8187,83 +8274,6 @@
 			(project "Final_Camera_PCB"
 				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V8")
-		(at 243.84 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d9f28290-5352-4a42-8f39-e3419b67451c")
-		(property "Reference" "#PWR033"
-			(at 247.65 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 237.998 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V8\""
-			(at 243.84 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d6fba43-df21-4497-bbcb-1d0c1823ae56")
-		)
-		(instances
-			(project "Final_Camera_PCB"
-				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8434,85 +8444,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 243.84 20.32 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e55fab0d-d90f-462d-831f-fdd08940bf02")
-		(property "Reference" "#PWR035"
-			(at 247.65 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 240.03 20.3199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 243.84 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a4ae81be-da48-49e0-8056-b52a378fb5cd")
-		)
-		(instances
-			(project "Final_Camera_PCB"
-				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 121.92 38.1 0)
 		(unit 1)
@@ -8535,7 +8466,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 125.73 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
