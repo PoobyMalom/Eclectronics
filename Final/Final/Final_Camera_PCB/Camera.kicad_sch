@@ -1266,129 +1266,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2913,12 +2790,6 @@
 		(uuid "69526721-56da-448a-8757-ae753856e2ba")
 	)
 	(junction
-		(at 41.91 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad4996e6-eb68-4c2d-940f-31f9cf8ddb9a")
-	)
-	(junction
 		(at 33.02 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2957,16 +2828,6 @@
 	(no_connect
 		(at 76.2 40.64)
 		(uuid "eaba1498-a823-426e-8d41-475aa6ff5998")
-	)
-	(wire
-		(pts
-			(xy 41.91 110.49) (xy 41.91 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "001f1ec4-bbc2-49ff-818b-bf3d09f0c3cb")
 	)
 	(wire
 		(pts
@@ -3067,6 +2928,16 @@
 			(type default)
 		)
 		(uuid "1768afcb-121c-4064-9582-8245423fb3dd")
+	)
+	(wire
+		(pts
+			(xy 81.28 72.39) (xy 82.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c78d11-09c0-4be2-8e8f-b951a01655f6")
 	)
 	(wire
 		(pts
@@ -3830,6 +3701,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 72.39) (xy 73.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ef7cba-217c-4fed-9018-a71c06917788")
+	)
+	(wire
+		(pts
 			(xy 29.21 77.47) (xy 41.91 77.47)
 		)
 		(stroke
@@ -3880,16 +3761,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 72.39) (xy 78.74 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6b152d1-16b2-4177-9918-24bdaa3c58dc")
-	)
-	(wire
-		(pts
 			(xy 191.77 48.26) (xy 191.77 52.07)
 		)
 		(stroke
@@ -3908,7 +3779,7 @@
 		)
 		(uuid "fd6ba8ab-eb83-48be-b6df-b705c90582e8")
 	)
-	(label "PCLK"
+	(label "PCLK_MCU"
 		(at 269.24 25.4 0)
 		(effects
 			(font
@@ -4033,9 +3904,9 @@
 		)
 		(uuid "4a1e983f-dfea-4d8f-a0b8-670636398ce2")
 	)
-	(hierarchical_label "PCLK"
+	(hierarchical_label "PCLK_MCU"
 		(shape input)
-		(at 78.74 72.39 0)
+		(at 82.55 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5421,7 +5292,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 256.54 45.974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6704,7 +6575,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 256.54 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7876,6 +7747,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 77.47 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9c31ea3-85d8-486f-b8c2-4f0cea6ccb75")
+		(property "Reference" "R27"
+			(at 77.47 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 77.47 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 77.47 74.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f1f24737-4649-42a0-ab39-355fb9c70594")
+		)
+		(pin "1"
+			(uuid "019c7623-1f30-41e2-ac77-a021354eb810")
+		)
+		(instances
+			(project "Final_Camera_PCB"
+				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 243.84 25.4 270)
 		(unit 1)
@@ -8520,85 +8471,6 @@
 			(project "Final_Camera_PCB"
 				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 41.91 114.3 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f10c1b36-c2aa-42f1-96e7-7600ec243389")
-		(property "Reference" "TP1"
-			(at 44.45 116.3319 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 44.45 118.8719 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
-			(at 36.83 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 41.91 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e335009-e12e-470f-9482-ddcd576c5ae1")
-		)
-		(instances
-			(project "Final_Camera_PCB"
-				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/1b196a4a-c342-4dee-8fac-b533a493a253"
-					(reference "TP1")
 					(unit 1)
 				)
 			)

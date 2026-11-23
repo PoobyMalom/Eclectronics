@@ -2612,7 +2612,7 @@
 		(uuid "1044b868-fa5a-46f0-a512-4a0acb1178a7")
 	)
 	(junction
-		(at 241.3 66.04)
+		(at 241.3 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14a77553-a504-455d-b4ce-f25a7ef49155")
@@ -2659,11 +2659,13 @@
 		(color 0 0 0 0)
 		(uuid "c331bc29-2971-4a86-b873-2e5b0865376b")
 	)
-	(junction
-		(at 241.3 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6572d86-cc74-4652-9b39-b29ff77d88d1")
+	(no_connect
+		(at 105.41 72.39)
+		(uuid "60c2e1e1-bdac-44f8-a72b-b692441728eb")
+	)
+	(no_connect
+		(at 29.21 74.93)
+		(uuid "c8badfea-b5ee-4459-9748-e6a29f4dbe0f")
 	)
 	(wire
 		(pts
@@ -2707,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 55.88) (xy 241.3 54.61)
+			(xy 241.3 54.61) (xy 241.3 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2737,16 +2739,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 64.77) (xy 241.3 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15465184-011a-4266-8658-aaac7fbe4896")
-	)
-	(wire
-		(pts
 			(xy 67.31 147.32) (xy 85.09 147.32)
 		)
 		(stroke
@@ -2754,16 +2746,6 @@
 			(type default)
 		)
 		(uuid "16c2a684-a524-46cc-b06d-5de3bea125e9")
-	)
-	(wire
-		(pts
-			(xy 232.41 55.88) (xy 241.3 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19a86963-a7e7-44eb-bb74-7cdff0734d1a")
 	)
 	(wire
 		(pts
@@ -2827,16 +2809,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 74.93) (xy 29.21 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "253ddf1b-7c32-43a1-8efd-edc523850221")
-	)
-	(wire
-		(pts
 			(xy 46.99 27.94) (xy 44.45 27.94)
 		)
 		(stroke
@@ -2867,16 +2839,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 53.34) (xy 232.41 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3223cb27-ecd8-497b-9500-33124c62d294")
-	)
-	(wire
-		(pts
 			(xy 35.56 22.86) (xy 44.45 22.86)
 		)
 		(stroke
@@ -2904,16 +2866,6 @@
 			(type default)
 		)
 		(uuid "3df9ab0b-3c58-4374-a266-8691186ae8ca")
-	)
-	(wire
-		(pts
-			(xy 232.41 45.72) (xy 232.41 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ecb0776-7c30-4432-9ea6-460bc1160adb")
 	)
 	(wire
 		(pts
@@ -2977,16 +2929,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 72.39) (xy 111.76 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "676cf6a7-aada-45cf-9e18-65649ab3c546")
-	)
-	(wire
-		(pts
 			(xy 105.41 77.47) (xy 111.76 77.47)
 		)
 		(stroke
@@ -3007,23 +2949,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 45.72) (xy 228.6 66.04)
+			(xy 228.6 45.72) (xy 228.6 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "71e14a90-f41c-4da6-a1fe-95199c83723a")
-	)
-	(wire
-		(pts
-			(xy 241.3 57.15) (xy 241.3 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7231a0e3-eb27-4a3d-9f38-79ee3a4a65f2")
 	)
 	(wire
 		(pts
@@ -3067,16 +2999,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 66.04) (xy 241.3 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e222927-bd5e-415a-af9d-ac311f0065d4")
-	)
-	(wire
-		(pts
 			(xy 219.71 33.02) (xy 228.6 33.02)
 		)
 		(stroke
@@ -3107,7 +3029,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 66.04) (xy 241.3 66.04)
+			(xy 228.6 60.96) (xy 241.3 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3515,16 +3437,6 @@
 		)
 		(uuid "31d1b287-5739-4a35-b667-c934e6e709d8")
 	)
-	(label "DET_B"
-		(at 111.76 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39979d60-b37d-46d0-a034-cb2570828ccf")
-	)
 	(label "CLK"
 		(at 111.76 69.85 0)
 		(effects
@@ -3584,16 +3496,6 @@
 			(justify left bottom)
 		)
 		(uuid "69d15ed2-d805-4c44-9a2e-d0d2d9b8911d")
-	)
-	(label "DET_B"
-		(at 25.4 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "866eb48a-b08c-44bb-b0a0-a72605a96b26")
 	)
 	(label "DAT2"
 		(at 25.4 64.77 180)
@@ -4789,85 +4691,6 @@
 			(project "Final_Camera_PCB"
 				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/8d89558a-04eb-43cc-b0e9-06c9fdf201ab"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 232.41 49.53 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7125d2b4-11fc-4f78-87c9-19570bde0a4a")
-		(property "Reference" "C46"
-			(at 233.934 57.658 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 231.394 57.658 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 231.4448 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 232.41 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8fcc9634-0f29-41a9-ab12-2704a556c7b5")
-		)
-		(pin "1"
-			(uuid "bebe38d6-b9b6-4afa-9378-5cae02598d9a")
-		)
-		(instances
-			(project "Final_Camera_PCB"
-				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/8d89558a-04eb-43cc-b0e9-06c9fdf201ab"
-					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -6871,88 +6694,6 @@
 			(project "Final_Camera_PCB"
 				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/8d89558a-04eb-43cc-b0e9-06c9fdf201ab"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 241.3 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcdd0e69-207c-45be-8ce2-e37512ece98d")
-		(property "Reference" "R27"
-			(at 243.84 59.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 243.84 62.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 239.522 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 241.3 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9df31d2-b289-43d3-8449-846fe13bec0d")
-		)
-		(pin "2"
-			(uuid "72198e76-e118-4578-b193-09062d1554e7")
-		)
-		(instances
-			(project "Final_Camera_PCB"
-				(path "/3ef7a7ce-b8da-4715-9e12-bdac53750462/8d89558a-04eb-43cc-b0e9-06c9fdf201ab"
-					(reference "R27")
 					(unit 1)
 				)
 			)

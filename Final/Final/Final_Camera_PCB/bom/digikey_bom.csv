@@ -1,0 +1,49 @@
+Quantity,Manufacturer Part Number,Manufacturer,Customer Reference,Description,Per Board,Link
+2,STM32H750VBT6,STMicroelectronics,U5,"MCU, LQFP-100",1,https://www.digikey.com/en/products/detail/stmicroelectronics/STM32H750VBT6/9453371
+3,TPS63020QDSJRQ1,Texas Instruments,U7,"Buck-boost 3.3V, VSON-14 (+1 spare)",1,https://www.digikey.com/en/products/detail/texas-instruments/TPS63020QDSJRQ1/5774166
+3,TPS2116DRLR,Texas Instruments,U6,"Power mux, SOT-583 (+1 spare)",1,https://www.digikey.com/en/products/result?keywords=TPS2116DRLR
+2,TLV74328PDBVR,Texas Instruments,U4,"LDO 2.8V, SOT-23-5",1,https://www.digikey.com/en/products/detail/texas-instruments/TLV74328PDBVR/7593925
+2,TLV73312PDBVR,Texas Instruments,U8,"LDO 1.2V, SOT-23-5",1,https://www.digikey.com/en/products/result?keywords=TLV73312PDBVR
+2,TLV9001IDCKR,Texas Instruments,U9,"Op-amp (backlight), SC-70-5",1,https://www.digikey.com/en/products/result?keywords=TLV9001IDCKR
+3,ECLAMP2357NQTCT,Semtech,U1,"SD EMI/ESD filter, UQFN-16 (+1 spare)",1,https://www.digikey.com/en/products/result?keywords=ECLAMP2357NQTCT
+2,APX811-31UG-7,Diodes Inc,U2,Reset supervisor,1,https://www.digikey.com/en/products/result?keywords=APX811-31UG-7
+3,USBLC6-2P6,STMicroelectronics,U3,"USB ESD, SOT-666 (+1 spare)",1,https://www.digikey.com/en/products/result?keywords=USBLC6-2P6
+5,DMG2301L-7,Diodes Inc,Q1,"P-MOSFET, SOT-23",1,https://www.digikey.com/en/products/result?keywords=DMG2301L-7
+5,BSS138,onsemi,Q2,"N-MOSFET, SOT-23",1,https://www.digikey.com/en/products/result?keywords=BSS138
+5,AO3400A,Alpha & Omega,Q3,"N-MOSFET, SOT-23 (alt: DMN3404L-7)",1,https://www.digikey.com/en/products/result?keywords=AO3400A
+2,ECS-3225MV-240-BN-TR,ECS Inc,Y1,"24 MHz oscillator, 3.2x2.5",1,https://www.digikey.com/en/products/detail/ecs-inc/ECS-3225MV-240-BN-TR/9646070
+3,FC-12M 32.7680KA-AC0,Epson,Y2,"32.768 kHz crystal, 2.0x1.2, 9 pF (+1 spare)",1,https://www.digikey.com/en/products/result?keywords=FC-12M%2032.7680KA-AC0
+2,TFM252012ALMA1R5MTAA,TDK,L1,"1.5 uH 3.3 A Isat, 2520",1,https://www.digikey.com/en/products/detail/tdk/TFM252012ALMA1R5MTAA/7795250
+2,NHD-2.8-240320AF-CSXP-F,Newhaven Display,LCD,2.8in TFT display (plugs into J3),1,https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-2-8-240320AF-CSXP-F/9849907
+2,0541324062,Molex,J3,40-pin 0.5mm FFC connector,1,https://www.digikey.com/en/products/result?keywords=0541324062
+2,DM3AT-SF-PEJM5,Hirose,J4,microSD socket,1,https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DM3AT-SF-PEJM5/2533565
+2,USB4105-GF-A,GCT,J2,"USB-C receptacle, USB 2.0",1,https://www.digikey.com/en/products/result?keywords=USB4105-GF-A
+2,PRPC006SAAN-RC,Sullins,J5,1x6 2.54mm male header (SWD),1,https://www.digikey.com/en/products/result?keywords=PRPC006SAAN-RC
+2,500SSP1S1M6QEA,E-Switch,S1,Slide power switch,1,https://www.digikey.com/en/products/result?keywords=500SSP1S1M6QEA
+20,B3U-1000P,Omron,SW1-SW8,Tactile switch SMD (+4 spare),8,https://www.digikey.com/en/products/result?keywords=B3U-1000P
+2,2479RB,Keystone,BT1,3xAAA holder,1,https://www.digikey.com/en/products/detail/keystone-electronics/2479RB/2746483
+2,1060,Keystone,BT2,CR2032 holder,1,https://www.digikey.com/en/products/detail/keystone-electronics/1060/303556
+5,LTST-C191KGKT,Lite-On,D1,Green LED 0603 (power),1,https://www.digikey.com/en/products/result?keywords=LTST-C191KGKT
+10,LTST-C191KRKT,Lite-On,D2-D4,Red LED 0603 (user),3,https://www.digikey.com/en/products/result?keywords=LTST-C191KRKT
+50,CL05B104KO5NNNC,Samsung,100nF x22,100nF 16V X7R 0402,22,https://www.digikey.com/en/products/result?keywords=CL05B104KO5NNNC
+25,CL21A106KOQNNNE,Samsung,"C2,C3,C5,C6,C8-C11,C16,C17",10uF 16V X5R 0805,10,https://www.digikey.com/en/products/result?keywords=CL21A106KOQNNNE
+15,CL10B105KA8NNNC,Samsung,"C4,C34,C36,C43,C44,C47",1uF 25V X7R 0603,6,https://www.digikey.com/en/products/result?keywords=CL10B105KA8NNNC
+10,CL31A226KAHNNNE,Samsung,C19-C21,22uF 25V X5R 1206,3,https://www.digikey.com/en/products/result?keywords=CL31A226KAHNNNE
+10,CL10A225KO8NNNC,Samsung,"C25,C26",2.2uF 16V X5R 0603 (VCAP),2,https://www.digikey.com/en/products/result?keywords=CL10A225KO8NNNC
+10,GRM188R61A475KE15D,Murata,"C32,C45",4.7uF 10V X5R 0603,2,https://www.digikey.com/en/products/result?keywords=GRM188R61A475KE15D
+10,CL05C120JB5NNNC,Samsung,"C23,C24",12pF 50V C0G 0402,2,https://www.digikey.com/en/products/result?keywords=CL05C120JB5NNNC
+10,CL05C220JB5NNNC,Samsung,C14,22pF 50V C0G 0402 (optional/DNP),1,https://www.digikey.com/en/products/result?keywords=CL05C220JB5NNNC
+10,RC0402FR-07100KL,Yageo,"R1,R12",100k 1% 0402,2,https://www.digikey.com/en/products/result?keywords=RC0402FR-07100KL
+10,RC0402FR-071K5L,Yageo,R2,1.5k 1% 0402,1,https://www.digikey.com/en/products/result?keywords=RC0402FR-071K5L
+10,RC0402FR-0710KL,Yageo,"R3,R8,R9,R18",10k 1% 0402,4,https://www.digikey.com/en/products/result?keywords=RC0402FR-0710KL
+10,RC0402FR-072K2L,Yageo,R4,2.2k 1% 0402,1,https://www.digikey.com/en/products/result?keywords=RC0402FR-072K2L
+15,RC0402FR-071KL,Yageo,"R5-R7,R19-R21",1k 1% 0402,6,https://www.digikey.com/en/products/result?keywords=RC0402FR-071KL
+10,RC0402FR-075K1L,Yageo,"R10,R11",5.1k 1% 0402 (USB-C CC),2,https://www.digikey.com/en/products/result?keywords=RC0402FR-075K1L
+10,RC0402FR-0715KL,Yageo,R13,15k 1% 0402,1,https://www.digikey.com/en/products/result?keywords=RC0402FR-0715KL
+15,RC0402FR-0747KL,Yageo,"R14,R22-R26",47k 1% 0402,6,https://www.digikey.com/en/products/result?keywords=RC0402FR-0747KL
+10,RC0402FR-071ML,Yageo,"R15,R17",1M 1% 0402,2,https://www.digikey.com/en/products/result?keywords=RC0402FR-071ML
+10,RC0402FR-07180KL,Yageo,R16,180k 1% 0402,1,https://www.digikey.com/en/products/result?keywords=RC0402FR-07180KL
+10,RC0402FR-0722RL,Yageo,R27,22R 1% 0402 (PCLK),1,https://www.digikey.com/en/products/result?keywords=RC0402FR-0722RL
+10,RC0402FR-07390RL,Yageo,R28,390R 1% 0402,1,https://www.digikey.com/en/products/result?keywords=RC0402FR-07390RL
+10,RC0402FR-07100RL,Yageo,R29,100R 1% 0402,1,https://www.digikey.com/en/products/result?keywords=RC0402FR-07100RL
+10,RC0603FR-071RL,Yageo,R30,1R 1% 0603 (backlight sense),1,https://www.digikey.com/en/products/result?keywords=RC0603FR-071RL

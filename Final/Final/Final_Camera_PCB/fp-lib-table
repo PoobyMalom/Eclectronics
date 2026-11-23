@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "Final Footprints") (type "KiCad") (uri "${KIPRJMOD}/../../Footprints") (options "") (descr ""))
 	(lib (name "Display_Connector") (type "KiCad") (uri "${KIPRJMOD}/../../Components/541324062/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "FC-12M_32.7680KA-AC0") (type "KiCad") (uri "${KIPRJMOD}/../../Components/FC_12M_32_7680KA_AC0/FC-12M_32.7680KA-AC0.pretty") (options "") (descr ""))
 )

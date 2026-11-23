@@ -9,4 +9,5 @@
 	(lib (name "Buck Boost") (type "KiCad") (uri "${KIPRJMOD}/../../Components/TPS63021DSJT/KiCADv6/2026-10-26_01-13-18.kicad_sym") (options "") (descr ""))
 	(lib (name "Display_Connector") (type "KiCad") (uri "${KIPRJMOD}/../../Components/541324062/KiCADv6/2026-11-19_02-58-26.kicad_sym") (options "") (descr ""))
 	(lib (name "Buck Boost Adj") (type "KiCad") (uri "${KIPRJMOD}/../../Components/TPS63020QDSJRQ1/KiCADv6/2026-11-19_03-29-32.kicad_sym") (options "") (descr ""))
+	(lib (name "FC-12M_32.7680KA-AC0") (type "KiCad") (uri "${KIPRJMOD}/../../Components/FC_12M_32_7680KA_AC0/FC-12M_32.7680KA-AC0.kicad_sym") (options "") (descr ""))
 )
